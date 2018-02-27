@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/hold.wav-367f92c3b4f60bc509e8e313576506f7.sample"
+
+[deps]
+
+source_file="res://assets/sound/hold.wav"
+source_md5="4dbfb496ca0424237ed0dbaf4e34dcb8"
+
+dest_files=[ "res://.import/hold.wav-367f92c3b4f60bc509e8e313576506f7.sample" ]
+dest_md5="70d7a411def4c6df9f2b64356ce2e84b"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

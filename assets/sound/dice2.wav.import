@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/dice2.wav-e621da2bddad3ed326fb1f304bd6ab8b.sample"
+
+[deps]
+
+source_file="res://assets/sound/dice2.wav"
+source_md5="641d9eb78e38b71fb2c3da3b9ac0284c"
+
+dest_files=[ "res://.import/dice2.wav-e621da2bddad3ed326fb1f304bd6ab8b.sample" ]
+dest_md5="5c5517bc4f42557f816fc9c8f8e9b0b9"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
