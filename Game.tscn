@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=18 format=2]
 
 [ext_resource path="res://Game.gd" type="Script" id=1]
 [ext_resource path="res://assets/image/wood.png" type="Texture" id=2]
@@ -7,6 +7,12 @@
 [ext_resource path="res://assets/image/arrow.png" type="Texture" id=5]
 [ext_resource path="res://assets/image/pig.png" type="Texture" id=6]
 [ext_resource path="res://assets/image/rat.png" type="Texture" id=7]
+[ext_resource path="res://assets/sound/dice1.wav" type="AudioStream" id=8]
+[ext_resource path="res://assets/sound/dice2.wav" type="AudioStream" id=9]
+[ext_resource path="res://assets/sound/dice3.wav" type="AudioStream" id=10]
+[ext_resource path="res://assets/sound/dice4.wav" type="AudioStream" id=11]
+[ext_resource path="res://assets/sound/hold.wav" type="AudioStream" id=12]
+[ext_resource path="res://assets/sound/pig.wav" type="AudioStream" id=13]
 
 [sub_resource type="DynamicFont" id=1]
 
@@ -265,6 +271,56 @@ percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
 _sections_unfolded = [ "Margin", "custom_fonts" ]
+
+[node name="Sound" type="Node" parent="." index="6"]
+
+[node name="Dice1" type="AudioStreamPlayer" parent="Sound" index="0"]
+
+stream = ExtResource( 8 )
+volume_db = 0.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[node name="Dice2" type="AudioStreamPlayer" parent="Sound" index="1"]
+
+stream = ExtResource( 9 )
+volume_db = 0.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[node name="Dice3" type="AudioStreamPlayer" parent="Sound" index="2"]
+
+stream = ExtResource( 10 )
+volume_db = 0.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[node name="Dice4" type="AudioStreamPlayer" parent="Sound" index="3"]
+
+stream = ExtResource( 11 )
+volume_db = 0.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[node name="Hold" type="AudioStreamPlayer" parent="Sound" index="4"]
+
+stream = ExtResource( 12 )
+volume_db = 0.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[node name="Pig" type="AudioStreamPlayer" parent="Sound" index="5"]
+
+stream = ExtResource( 13 )
+volume_db = 0.0
+autoplay = false
+mix_target = 0
+bus = "Master"
 
 [connection signal="pressed" from="DiceButton" to="." method="_on_DiceButton_pressed"]
 

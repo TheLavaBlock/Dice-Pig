@@ -54,8 +54,19 @@ func _on_DiceButton_pressed():
 	dice = randi() % 6
 	$Dice.frame = dice
 	if dice == 0:
+		$Sound/Pig.play()
 		setNextPlayer()
 		return
+
+	var diceType = randi() % 4
+	if diceType == 0:
+		$Sound/Dice1.play()
+	if diceType == 1:
+		$Sound/Dice2.play()
+	if diceType == 2:
+		$Sound/Dice3.play()
+	if diceType == 3:
+		$Sound/Dice4.play()	
 
 	turnPoints += dice + 1
 	$Turn/Points.text = str(turnPoints)
@@ -64,6 +75,8 @@ func _on_Left_pressed():
 	if turnPoints == 0:
 		return
 
+	$Sound/Hold.play()
+
 	player1Points += turnPoints
 	$Player1/Points.text = str(player1Points)
 	setNextPlayer()
@@ -71,6 +84,8 @@ func _on_Left_pressed():
 func _on_Right_pressed():
 	if turnPoints == 0:
 		return
+
+	$Sound/Hold.play()
 
 	player2Points += turnPoints
 	$Player2/Points.text = str(player2Points)
