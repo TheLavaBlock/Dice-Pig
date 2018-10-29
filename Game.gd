@@ -1,6 +1,6 @@
 extends Node
 
-var dice = 0 # range 0 - 5
+var dice = 0 # 0 - 5
 var turnPoints = 0 # 0 - 100
 var player1Points = 0 # 0 - 100
 var player1Total = 0
