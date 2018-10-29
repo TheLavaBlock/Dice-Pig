@@ -10,9 +10,9 @@ var currentPlayer = 0 # 0 - 1
 var maxPoints = 30
 onready var delay = get_node("Timer")
 
-const colourActive = Color("#ffffff")
-const colourInactive = Color("#bbbbbb")
-const colourWon = Color("#ff0000")
+const colorActive = Color("#ffffff")
+const colorInactive = Color("#bbbbbb")
+const colorWon = Color("#ff0000")
 
 func _ready():
 	randomize()	# get random numbers for dice
@@ -35,18 +35,18 @@ func resetPlayerPoints():
 func setCurrentPlayer(player):
 	currentPlayer = player
 	if currentPlayer == 0:
-		$Player1/Points.modulate = colourActive
-		$Player2/Points.modulate = colourInactive
-		$Turn/Left.modulate = colourActive
+		$Player1/Points.modulate = colorActive
+		$Player2/Points.modulate = colorInactive
+		$Turn/Left.modulate = colorActive
 		$Turn/Left.disabled = false
-		$Turn/Right.modulate = colourInactive
+		$Turn/Right.modulate = colorInactive
 		$Turn/Right.disabled = true
 	else:
-		$Player1/Points.modulate = colourInactive
-		$Player2/Points.modulate = colourActive
-		$Turn/Left.modulate = colourInactive
+		$Player1/Points.modulate = colorInactive
+		$Player2/Points.modulate = colorActive
+		$Turn/Left.modulate = colorInactive
 		$Turn/Left.disabled = true
-		$Turn/Right.modulate = colourActive
+		$Turn/Right.modulate = colorActive
 		$Turn/Right.disabled = false
 		
 func setNextPlayer():
@@ -62,8 +62,8 @@ func endGame():
 	delay.start()
 	yield(delay, "timeout")
 	$Sound/Pig.play()
-	$Turn/Right.modulate = colourInactive
-	$Turn/Left.modulate = colourInactive
+	$Turn/Right.modulate = colorInactive
+	$Turn/Left.modulate = colorInactive
 	_ready()
 	
 	
@@ -99,7 +99,7 @@ func _on_Left_pressed():
 	if player1Points >= maxPoints:
 		player1Total = player1Total + 1
 		$Player1/Total1.text = str(player1Total)
-		$Player1/Points.modulate = colourWon
+		$Player1/Points.modulate = colorWon
 		endGame()
 	else:
 		setNextPlayer()
@@ -115,7 +115,7 @@ func _on_Right_pressed():
 	if player2Points >= maxPoints:
 		player2Total = player2Total + 1
 		$Player2/Total2.text = str(player2Total)
-		$Player2/Points.modulate = colourWon
+		$Player2/Points.modulate = colorWon
 		endGame()
 	else:
 		setNextPlayer()
