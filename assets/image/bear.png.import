@@ -7,10 +7,7 @@ path="res://.import/bear.png-6fd8d28e3ec19b176dfc0efd08d8aa66.stex"
 [deps]
 
 source_file="res://assets/image/bear.png"
-source_md5="59ecb1d2df29a6311672ef0de467510b"
-
 dest_files=[ "res://.import/bear.png-6fd8d28e3ec19b176dfc0efd08d8aa66.stex" ]
-dest_md5="f7ba0304e12b45fa4e0259b566157a32"
 
 [params]
 

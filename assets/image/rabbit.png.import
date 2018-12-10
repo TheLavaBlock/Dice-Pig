@@ -7,10 +7,7 @@ path="res://.import/rabbit.png-b3e2663326917352a7e066a359cb9614.stex"
 [deps]
 
 source_file="res://assets/image/rabbit.png"
-source_md5="75146e318324a1e2172022538259dab7"
-
 dest_files=[ "res://.import/rabbit.png-b3e2663326917352a7e066a359cb9614.stex" ]
-dest_md5="b81a567afae3e614924d0d17f9d60c4c"
 
 [params]
 

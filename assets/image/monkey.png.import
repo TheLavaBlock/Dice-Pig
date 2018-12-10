@@ -7,10 +7,7 @@ path="res://.import/monkey.png-2c582750e86a5506c95c2e084cf67ae2.stex"
 [deps]
 
 source_file="res://assets/image/monkey.png"
-source_md5="c23277cc8f5907ff682acb2dfa886318"
-
 dest_files=[ "res://.import/monkey.png-2c582750e86a5506c95c2e084cf67ae2.stex" ]
-dest_md5="49412d2f7cf2cf5f8b55fe1a3a6608ed"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/dog.png-df8fbb38937888a1e03a751cf108c57b.stex"
 [deps]
 
 source_file="res://assets/image/dog.png"
-source_md5="7022ad4e080ff127332d460fb30f6717"
-
 dest_files=[ "res://.import/dog.png-df8fbb38937888a1e03a751cf108c57b.stex" ]
-dest_md5="273bd7c7cfafb0456b391fec1973bea0"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/score.png-f2f766afa9bc4becc3a75be54cedabb0.stex"
 [deps]
 
 source_file="res://assets/image/score.png"
-source_md5="563787e1248292ae8854b4f4779066bb"
-
 dest_files=[ "res://.import/score.png-f2f766afa9bc4becc3a75be54cedabb0.stex" ]
-dest_md5="561641b486e84d2510e41a3707918082"
 
 [params]
 

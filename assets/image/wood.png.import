@@ -7,10 +7,7 @@ path="res://.import/wood.png-fc1f7ff49aa363346d51fe6d62429aea.stex"
 [deps]
 
 source_file="res://assets/image/wood.png"
-source_md5="d2780b4191e6195c211233b01f8e25f3"
-
 dest_files=[ "res://.import/wood.png-fc1f7ff49aa363346d51fe6d62429aea.stex" ]
-dest_md5="65610f18247060333286dd4be7c6bedf"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/dice3.wav-2ee88686605e2f5dfd792bd2c2808323.sample"
 [deps]
 
 source_file="res://assets/sound/dice3.wav"
-source_md5="671851c3259d1af96ee7e947c2fb1c3b"
-
 dest_files=[ "res://.import/dice3.wav-2ee88686605e2f5dfd792bd2c2808323.sample" ]
-dest_md5="8728f9cca2ded291161a955772f777bc"
 
 [params]
 

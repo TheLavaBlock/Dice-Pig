@@ -7,10 +7,7 @@ path="res://.import/rat.png-4482f899218f27487a4cd80a01c1e721.stex"
 [deps]
 
 source_file="res://assets/image/rat.png"
-source_md5="f3c5a7bcc3fee4b1bf30a07b7a30fcdf"
-
 dest_files=[ "res://.import/rat.png-4482f899218f27487a4cd80a01c1e721.stex" ]
-dest_md5="a340c64122b6cf4aeed4165eafdab890"
 
 [params]
 

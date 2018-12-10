@@ -7,10 +7,7 @@ path="res://.import/dragon.png-b66b1f479f4df9de3442228b66f24094.stex"
 [deps]
 
 source_file="res://assets/image/dragon.png"
-source_md5="814e4a08f6588c809462853b1125d7bc"
-
 dest_files=[ "res://.import/dragon.png-b66b1f479f4df9de3442228b66f24094.stex" ]
-dest_md5="1467630c086fba60cd9e85afa6d9fb34"
 
 [params]
 

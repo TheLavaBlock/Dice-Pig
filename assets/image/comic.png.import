@@ -7,10 +7,7 @@ path="res://.import/comic.png-0a5d6e550c6154ecd72c57768f627e34.stex"
 [deps]
 
 source_file="res://assets/image/comic.png"
-source_md5="f00a2fe35ec66c775ccf7c47a01e08c0"
-
 dest_files=[ "res://.import/comic.png-0a5d6e550c6154ecd72c57768f627e34.stex" ]
-dest_md5="06de51f6e10b241a34e771f1f12cdb4c"
 
 [params]
 
