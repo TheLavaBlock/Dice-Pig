@@ -45,14 +45,14 @@ var settingsPath = "user://settings.save"
 var settingsData = {"FullScreen": 0, "Music": 1, "SoundEffects": 1, "Tougher": 0, "FastMode": 0}
 
 func createHighScoreSave():
-   	saveGame.open(highScorePath, File.WRITE)
-   	saveGame.store_var(highScoreData)
-   	saveGame.close()
+	saveGame.open(highScorePath, File.WRITE)
+	saveGame.store_var(highScoreData)
+	saveGame.close()
 	
 func createSettingsSave():
-   	saveGame.open(settingsPath, File.WRITE)
-   	saveGame.store_var(settingsData)
-   	saveGame.close()
+	saveGame.open(settingsPath, File.WRITE)
+	saveGame.store_var(settingsData)
+	saveGame.close()
 	
 func readHighScore():
 	saveGame.open(highScorePath, File.READ) 
