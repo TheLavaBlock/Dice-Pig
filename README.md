@@ -2,6 +2,8 @@
 
 **Dice Pig** is a simple dice game made with [Godot Engine](https://godotengine.org) | Free to Play: [itch.io](https://thelavablock.itch.io/dice-pig)
 
+Tutorial: [Making a 2D Game - UI/Mechanics/Sound](https://steemit.com/utopian-io/@thelavablock/godot-engine-tutorial-making-a-2d-game-ui-mechanics-sound)
+
 ![Dice-Pig Screenshot2](doc/screenshot2.png)
 
 **Dice Pig** is a deceptively simple dice game that anyone can learn in a snap:
