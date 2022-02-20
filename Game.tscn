@@ -154,8 +154,8 @@ stretch_mode = 4
 position = Vector2( 510, 330 )
 scale = Vector2( 2, 2 )
 texture = ExtResource( 7 )
-vframes = 2
 hframes = 3
+vframes = 2
 
 [node name="Player1Score" type="Label" parent="."]
 margin_left = 20.0
@@ -411,8 +411,8 @@ margin_left = 100.0
 margin_top = 133.0
 margin_right = 415.0
 margin_bottom = 213.0
-custom_fonts/font = SubResource( 9 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 9 )
 text = "&#@§!!!"
 
 [node name="HighScoreView" type="PopupPanel" parent="."]
@@ -898,6 +898,7 @@ custom_fonts/font = SubResource( 1 )
 text = "Dice Pig"
 align = 1
 valign = 1
+
 [connection signal="pressed" from="RoundButton" to="." method="_on_RoundButton_pressed"]
 [connection signal="pressed" from="DiceButton" to="." method="_on_DiceButton_pressed"]
 [connection signal="pressed" from="DiceHiddenButton" to="." method="_on_DiceHiddenButton_pressed"]
